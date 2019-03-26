@@ -1,0 +1,39 @@
+.applications-section {
+	padding-top:10rem;
+	background:-webkit-gradient(linear, left bottom, left top, from(#161616), color-stop(75%,rgba(22, 22, 22, .9)), to(rgba(22, 22, 22, .8)));
+	background:linear-gradient(to top, #161616 0, rgba(22, 22, 22, .9) 75%, rgba(22, 22, 22, .8) 100%)
+}
+
+.weeklies-section,
+.about-section,
+.applications-section,
+.contact-section {
+	padding-top: 4rem !important;
+	padding-bottom: 4rem !important;
+}
+
+.navbar-brand {
+	color: #161616 !important;
+}
+
+.nav-link {
+	color: #161616 !important;
+	padding: 2rem 1.5rem !important;
+	font-weight: 600;
+}
+
+.separator {
+	cursor: default;
+	-webkit-touch-callout: none; 
+	-webkit-user-select: none; 
+	-khtml-user-select: none; 
+	-moz-user-select: none; 
+	-ms-user-select: none; 
+	user-select: none;
+}
+
+.btn-primary:disabled {
+	background-color: #64a19d;
+	border-color: #64a19d;
+	cursor: not-allowed;
+}
